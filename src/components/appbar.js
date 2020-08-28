@@ -11,6 +11,9 @@ export default function Appbar() {
         <li className="nav-item mx-4">
           <Intent to="/projects">Projects</Intent>
         </li>
+		  <li className="nav-item mx-4">
+			  <Intent to="/resume">Resume</Intent>
+		  </li>
       </ul>
     </div>
   )
